@@ -346,13 +346,27 @@ a {
   bottom: 10px;
 }
 @media screen and (min-width: 1024px) {
-.quote {
-  font-size: 2rem;
+  .quote {
+    font-size: 2rem;
+  }
+  .quote__author {
+    font-size: 2.4rem;
+  }
+  .quote__organization {
+    font-size: 1.6rem;
+  }
 }
-.quote__author {
-  font-size: 2.4rem;
-  
+/*Media*/
+.grid {
+  display: grid;
 }
-.quote__organization
-font-size: 1.6rem;
+@media screen and (min-width: 768px) {
+  .grid--1x2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 1024px) {
+  .grid--1x3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
