@@ -463,6 +463,11 @@ a {
     padding: 3rem 2rem 6rem 2rem;
   }
 }
+@media screen and (min-width: 1025px) and (max-width: 1439px) {
+  .block-testimonial {
+    padding: 3rem 2rem 7rem 2rem;
+  }
+}
 @media screen and (min-width: 1024px) {
   .testimonial__image > img {
     height: 265px;
@@ -1051,7 +1056,7 @@ a {
   position: relative;
   z-index: -1;
   top: 14rem;
-  margin-bottom: 7rem;
+  margin-bottom: 9rem;
 }
 @media screen and (min-width: 768px) {
   .callout-element-wrap .grid--1x2 {
