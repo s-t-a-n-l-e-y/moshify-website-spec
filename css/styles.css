@@ -1146,3 +1146,13 @@ a {
     height: 260px;
   }
 }
+/*Animations*/
+[data-aos="fade-right"] {
+  @media screen and (max-width: 425px) {
+    transform: translateX(0);
+
+    &.aos-animate {
+      transform: translateX(0);
+    }
+  }
+}
